@@ -14,3 +14,7 @@ variable "mylist" {
     type = list
     default = [1,2,3]
 }
+
+provider "azurerm" {
+  version = "~> 1.44"
+}
