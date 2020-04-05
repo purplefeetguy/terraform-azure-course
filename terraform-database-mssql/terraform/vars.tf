@@ -5,12 +5,12 @@ variable "tenant_id" {}
 
 variable "location" {
   type    = string
-  default = "westeurope"
+  default = "northcentralus"
 }
 
 variable "failover_location" {
   type    = string
-  default = "uksouth"
+  default = "southcentralus"
 }
 
 variable "prefix" {
